@@ -29,7 +29,7 @@ public class GeometryMain {
         try {
 
             //prompting user for input, reading input, and setting to variable
-            int userInput = Integer.parseInt(inputOutput("Please select the geometric shape you wish to calculate: "));
+            int userInput = Integer.parseInt(inputOutput("Please make your selection: " +"\n"));
             
             //3 for the current code
             if (userInput >= 0 && userInput <=3) 
